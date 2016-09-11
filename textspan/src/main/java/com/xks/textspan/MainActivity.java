@@ -1,22 +1,11 @@
 package com.xks.textspan;
 
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.SpannableStringBuilder;
+import android.text.SpannableString;
 import android.text.Spanned;
-import android.text.method.LinkMovementMethod;
-import android.text.style.AbsoluteSizeSpan;
-import android.text.style.BackgroundColorSpan;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.ImageSpan;
-import android.text.style.RelativeSizeSpan;
-import android.text.style.ScaleXSpan;
-import android.text.style.StrikethroughSpan;
-import android.text.style.TypefaceSpan;
-import android.text.style.URLSpan;
-import android.text.style.UnderlineSpan;
+import android.text.style.ReplacementSpan;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
             + "正常字体"
             + "图标";
 
+    private String expression = "微笑";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,8 +36,15 @@ public class MainActivity extends AppCompatActivity {
 
         urlTextView = (TextView) findViewById(R.id.url_tv);
 
+        //自定义TextReplacementSpan
+        SpannableString spannableString = new SpannableString(text);
+        ReplacementSpan replacementSpan = new TextReplacementSpan("阿里巴巴", Color.RED,50);
+        spannableString.setSpan(replacementSpan,0,2, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        urlTextView.setText(spannableString);
+
+
         //SpannableStringBuilder基本用法
-        SpannableStringBuilder spannableString = new SpannableStringBuilder(text);
+        /*SpannableString spannableString = new SpannableString(text);
         URLSpan baiduSpan = new URLSpan("http://www.baidu.com");
         //设置URL链接
         spannableString.setSpan(baiduSpan, 0, 2, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
@@ -97,10 +95,10 @@ public class MainActivity extends AppCompatActivity {
         spannableString.setSpan(new TypefaceSpan("monospace"), 55, 57, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
 
         urlTextView.setText(spannableString);
-        urlTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        urlTextView.setMovementMethod(LinkMovementMethod.getInstance());*/
 
         //改变文字
-        spannableString.replace(0, 2, "淘宝");
+       /* spannableString.replace(0, 2, "淘宝");
         spannableString.insert(2, "电话号码：", 0, 5);
 
         //更改效果
@@ -109,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         spannableString.setSpan(new URLSpan("http://www.taobao.com"), 0, 2, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         spannableString.setSpan(telSpan, 7, 18, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         urlTextView.setText(spannableString);
-
+*/
 
         /*//SpannableString设置多个Span
         SpannableString spannableString = new SpannableString(text);
