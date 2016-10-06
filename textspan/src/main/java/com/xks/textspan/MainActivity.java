@@ -1,14 +1,15 @@
 package com.xks.textspan;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.SpannableString;
 import android.text.Spanned;
-import android.text.style.ReplacementSpan;
+import android.text.style.URLSpan;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final String TAG = "MainActivty";
 
     private TextView urlTextView;
     private TextView phoneTextView;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
             + "正常字体"
             + "图标";
 
+    private String text2 = "http://www.baidu.com";
+
     private String expression = "微笑";
 
     @Override
@@ -36,12 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
         urlTextView = (TextView) findViewById(R.id.url_tv);
 
-        //自定义TextReplacementSpan
-        SpannableString spannableString = new SpannableString(text);
-        ReplacementSpan replacementSpan = new TextReplacementSpan("阿里巴巴", Color.RED,50);
-        spannableString.setSpan(replacementSpan,0,2, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        SpannableString spannableString = new SpannableString(text2);
+        spannableString.setSpan(new URLSpan("http://www.taobao.com"), 0, text2.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         urlTextView.setText(spannableString);
-
+//        urlTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         //SpannableStringBuilder基本用法
         /*SpannableString spannableString = new SpannableString(text);

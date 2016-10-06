@@ -1,1 +1,1 @@
-include ':app', ':webviewdemo', ':textspan'
+include ':app', ':webviewdemo', ':textspan', ':camera2'
