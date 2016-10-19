@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/camera2" />
             <option value="$PROJECT_DIR$/downloadmanager" />
+            <option value="$PROJECT_DIR$/filedemo" />
+            <option value="$PROJECT_DIR$/snackbardemo" />
             <option value="$PROJECT_DIR$/textspan" />
             <option value="$PROJECT_DIR$/webviewdemo" />
           </set>

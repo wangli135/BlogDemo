@@ -1,1 +1,1 @@
-include ':app', ':webviewdemo', ':textspan', ':camera2', ':downloadmanager'
+include ':app', ':webviewdemo', ':textspan', ':camera2', ':downloadmanager', ':filedemo', ':snackbardemo'
