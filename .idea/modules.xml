@@ -7,8 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/camera2/camera2.iml" filepath="$PROJECT_DIR$/camera2/camera2.iml" />
       <module fileurl="file://$PROJECT_DIR$/downloadmanager/downloadmanager.iml" filepath="$PROJECT_DIR$/downloadmanager/downloadmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/filedemo/filedemo.iml" filepath="$PROJECT_DIR$/filedemo/filedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/snackbardemo/snackbardemo.iml" filepath="$PROJECT_DIR$/snackbardemo/snackbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/textspan/textspan.iml" filepath="$PROJECT_DIR$/textspan/textspan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewgroupdemo/viewgroupdemo.iml" filepath="$PROJECT_DIR$/viewgroupdemo/viewgroupdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/webviewdemo/webviewdemo.iml" filepath="$PROJECT_DIR$/webviewdemo/webviewdemo.iml" />
     </modules>
   </component>
