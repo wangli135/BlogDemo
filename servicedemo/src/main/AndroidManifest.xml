@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xks.binderdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <service
+            android:name=".AddService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MessengerService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+        <service
+            android:name=".AidlService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <activity android:name=".LeficycleActivity" />
+
+        <service
+            android:name=".LoggerService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".PlayMusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".PlayMusicActivity" />
+        <activity android:name=".BookActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <service
+            android:process=":book"
+            android:name=".BookService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
