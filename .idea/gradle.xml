@@ -13,12 +13,11 @@
             <option value="$PROJECT_DIR$/downloadmanager" />
             <option value="$PROJECT_DIR$/filedemo" />
             <option value="$PROJECT_DIR$/handlerdemo" />
-            <option value="$PROJECT_DIR$/minademo" />
             <option value="$PROJECT_DIR$/okhttpdemo" />
             <option value="$PROJECT_DIR$/servicedemo" />
             <option value="$PROJECT_DIR$/snackbardemo" />
             <option value="$PROJECT_DIR$/textspan" />
-            <option value="$PROJECT_DIR$/viewgroupdemo" />
+            <option value="$PROJECT_DIR$/viewdemo" />
             <option value="$PROJECT_DIR$/watermaskerdemo" />
             <option value="$PROJECT_DIR$/webviewdemo" />
           </set>

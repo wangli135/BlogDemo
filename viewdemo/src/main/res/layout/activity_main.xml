@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xks.viewgroupdemo.TabBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.xks.viewgroupdemo.TabBar>
+
+    <com.xks.viewgroupdemo.TagLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0FFFF0"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FF0000" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFFF00" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFFF00" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#FF00FF" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="#FF0000" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFFF00" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF00" />
+
+        <com.xks.viewgroupdemo.CircleView
+            android:gravity="center"
+            android:text="Circle"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+
+    </com.xks.viewgroupdemo.TagLayout>
+
+
+</LinearLayout>
+
