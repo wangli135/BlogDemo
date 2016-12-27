@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xks.viewgroupdemo">
+    package="com.xks.touchgesturedemo">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".scroll.ViewScrollActivity">
+        <activity android:name=".DetectGestureActivity" />
+        <activity android:name=".VelocityActivity" />
+        <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".scroll.ScrollerDemoActivity">
+        <activity android:name=".MultiTouchActivity"></activity>
+        <activity android:name=".ZoomImageViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

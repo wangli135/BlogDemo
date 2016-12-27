@@ -1,1 +1,1 @@
-include ':app', ':webviewdemo', ':textspan', ':camera2', ':downloadmanager', ':filedemo', ':snackbardemo', ':viewdemo', ':okhttpdemo', ':handlerdemo', ':servicedemo'
+include ':app', ':webviewdemo', ':textspan', ':camera2', ':downloadmanager', ':filedemo', ':snackbardemo', ':viewdemo', ':okhttpdemo', ':handlerdemo', ':servicedemo', ':touchgesturedemo'

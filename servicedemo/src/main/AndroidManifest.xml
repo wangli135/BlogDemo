@@ -8,8 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
 
         <service
             android:name=".AddService"
@@ -37,22 +36,26 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".PlayMusicActivity" />
-        <activity android:name=".BookActivity">
+        <activity android:name=".PlayMusicActivity"></activity>
+        <activity android:name=".BookActivity"></activity>
 
+        <service
+            android:name=".BookService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":book" />
+
+        <activity android:name=".IntentServiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
         <service
-            android:process=":book"
-            android:name=".BookService"
-            android:enabled="true"
-            android:exported="true"></service>
+            android:name=".MyIntentService"
+            android:exported="false"></service>
     </application>
 
 </manifest>

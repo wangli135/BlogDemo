@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">touchgesturedemo</string>
+    <string name="action_zoom_in">Demo zoom in</string>
+    <string name="action_zoom_out">Demo zoom out</string>
+    <string name="action_pan_left">Demo pan left</string>
+    <string name="action_pan_right">Demo pan right</string>
+    <string name="action_pan_up">Demo pan up</string>
+    <string name="action_pan_down">Demo pan down</string>
+</resources>

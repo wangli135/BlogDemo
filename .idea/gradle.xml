@@ -17,8 +17,8 @@
             <option value="$PROJECT_DIR$/servicedemo" />
             <option value="$PROJECT_DIR$/snackbardemo" />
             <option value="$PROJECT_DIR$/textspan" />
+            <option value="$PROJECT_DIR$/touchgesturedemo" />
             <option value="$PROJECT_DIR$/viewdemo" />
-            <option value="$PROJECT_DIR$/watermaskerdemo" />
             <option value="$PROJECT_DIR$/webviewdemo" />
           </set>
         </option>

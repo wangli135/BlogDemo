@@ -12,8 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/snackbardemo/snackbardemo.iml" filepath="$PROJECT_DIR$/snackbardemo/snackbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/textspan/textspan.iml" filepath="$PROJECT_DIR$/textspan/textspan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchgesturedemo/touchgesturedemo.iml" filepath="$PROJECT_DIR$/touchgesturedemo/touchgesturedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewdemo/viewdemo.iml" filepath="$PROJECT_DIR$/viewdemo/viewdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/watermaskerdemo/watermaskerdemo.iml" filepath="$PROJECT_DIR$/watermaskerdemo/watermaskerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/webviewdemo/webviewdemo.iml" filepath="$PROJECT_DIR$/webviewdemo/webviewdemo.iml" />
     </modules>
   </component>
