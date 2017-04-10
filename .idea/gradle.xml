@@ -8,15 +8,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitydemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/camera2" />
             <option value="$PROJECT_DIR$/downloadmanager" />
             <option value="$PROJECT_DIR$/filedemo" />
             <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/loaderdemo" />
             <option value="$PROJECT_DIR$/okhttpdemo" />
             <option value="$PROJECT_DIR$/servicedemo" />
             <option value="$PROJECT_DIR$/snackbardemo" />
             <option value="$PROJECT_DIR$/textspan" />
+            <option value="$PROJECT_DIR$/toolbardemo" />
             <option value="$PROJECT_DIR$/touchgesturedemo" />
             <option value="$PROJECT_DIR$/viewdemo" />
             <option value="$PROJECT_DIR$/webviewdemo" />

@@ -40,11 +40,14 @@
 主要讲解Service相关的知识点，包括生命周期、启动服务与绑定服务、AIDL与Binder、以及Service的两个特殊用法：IntentService和前台服务。
 博客主要分为三篇，如下：
 1. [深入理解Service（一）——服务生命周期](http://blog.csdn.net/qq_19431333/article/details/53784734)
-2.
-3.
+2. [深入理解Service（二）——绑定服务](http://blog.csdn.net/qq_19431333/article/details/53905615)
+3. [深入理解Service（三）——前台服务和IntentService](http://blog.csdn.net/qq_19431333/article/details/54015648)
 
 # viewdemo
 主要讲解View的各个知识点，包括View的位置、滑动、绘制过程、事件分发
 博客分为几篇，如下：
-1.
+1. [View的位置参数详解](http://blog.csdn.net/qq_19431333/article/details/54341047)
 2.
+
+# activitydemo
+主要讲解Activity生命周期、启动模式、taskAffinity属性以及清理返回栈。

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xks.listviewdemo.MainActivity">
+
+    <com.xks.listviewdemo.DynamicBgActionbar
+        android:id="@+id/dynamic_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:fitsSystemWindows="true"></com.xks.listviewdemo.DynamicBgActionbar>
+
+    <com.xks.listviewdemo.QQZoneListView
+        android:id="@+id/qqzone_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+    </com.xks.listviewdemo.QQZoneListView>
+
+
+</LinearLayout>

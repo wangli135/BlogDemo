@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
@@ -34,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
 
-                if (request.getUrl().toString().endsWith("jpg||jpeg")) {
+                Log.i("URL", request.getUrl().toString());
+
+                if (request.getUrl().toString().endsWith("jpg||jpeg||ico")) {
                     return super.shouldInterceptRequest(view, request);
                 } else {
                     StringBuilder stringBuilder = new StringBuilder();
@@ -69,7 +72,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view, String urlStr) {
 
-                if (urlStr.endsWith("jpg||jpeg"))
+                Log.i("URL", urlStr);
+
+                if (urlStr.endsWith("jpg||jpeg||ico"))
                     return super.shouldInterceptRequest(view, urlStr);
                 else {
                     StringBuilder stringBuilder = new StringBuilder();

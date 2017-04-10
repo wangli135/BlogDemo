@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xks.toolbardemo.TwinBehaviorActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="300dp">
+        <TextView
+            android:id="@+id/leftTv"
+            android:layout_gravity="top|left"
+            android:background="#FF0000"
+            android:text="@string/large_text"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.NestedScrollView>
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_gravity="top|right"
+       app:layout_behavior="com.xks.toolbardemo.TwinBehavior"
+       android:layout_width="100dp"
+       android:layout_height="300dp">
+
+       <TextView
+           android:id="@+id/rightTv"
+           android:background="#00FF00"
+           android:text="@string/large_text"
+           android:gravity="center"
+           android:textSize="20sp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+   </android.support.v4.widget.NestedScrollView>
+
+
+    <!--<Button
+        android:text="改变大小"
+        android:onClick="changeSize"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="改变位置"
+        android:onClick="changePosition"
+        android:layout_gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
