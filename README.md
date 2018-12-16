@@ -1,3 +1,7 @@
+这部分博客主要是在学校的时候写的，现在工作了，换了种方式，主要在Gitbook上更新、记录文章，地址是：  https://xingfeng.gitbook.io/hust/  
+另外，喜欢我的文章的话，可以去我的csdn或简书看。 地址分别是：  
+- [CSDN](https://blog.csdn.net/qq_19431333)  
+- [简书](https://www.jianshu.com/u/57f41372c68e)
 # webviewdemo
 主要讲解WebView拦截请求的例子，主要是要重写WebViewClient的shouldInterceptRequest方法，在这个方法中返回想拦截的请求。
 博客地址：[android WebView拦截请求详解](http://blog.csdn.net/qq_19431333/article/details/52351437)
